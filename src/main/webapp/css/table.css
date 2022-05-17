@@ -1,0 +1,39 @@
+/*css样式表信息
+    >id : table标签开始位置
+*/
+
+#table caption {
+    font-size: 28px;
+    font-weight: bold;
+}
+#table {
+    background: rgba(6,12,22,0.6);
+    width: 1200px;
+    border-left: 2px solid red;
+    margin: 0 auto;
+    text-align: center;
+    border-collapse: collapse;
+}
+#table th {
+    font-size: 25px;
+}
+#table tr, #table td {
+    font-size: 25px;
+    border: rgba(86,255,22,0.12) solid 1px;
+}
+#table tr td a {
+    text-decoration: none;
+    color: cadetblue;
+}
+#table tr td a:hover {
+    color: black;
+}
+#table tr:hover {
+    background: rgba(255,128,24,0.12);
+}
+#table tr:nth-child(2n+1) {
+    color: rgba(23,255,0,0.79);
+}
+#table tr:nth-child(2n) {
+    color: rgba(231,255,246,0.85);
+}

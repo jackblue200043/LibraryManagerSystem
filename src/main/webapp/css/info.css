@@ -1,0 +1,21 @@
+
+body:after {
+	content: " ";
+	display: block;
+	overflow: hidden;
+	clear: both;
+}
+#main, #info{
+	width: 400px;
+	height:400px;
+	margin: 20px;;
+	border: 2px solid aquamarine;
+	float: left;
+	padding-top: 30px;
+}
+#info ol li{
+	margin-left: 30px;
+	text-align: justify;
+	padding: 10px;
+	
+}

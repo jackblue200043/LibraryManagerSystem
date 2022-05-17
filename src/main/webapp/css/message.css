@@ -1,0 +1,54 @@
+/*message说明
+
+*/
+#message {
+    background: #84ff57;
+    border-radius: 20px;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    inline-size: border-box;
+    position: relative;
+    float: left;
+}
+
+#message .text {
+    text-indent: 2em;
+    inline-size: border-box;
+    padding-top: 10px;
+    margin: 2px;
+    font-size: 25px;
+}
+#message .footer {
+    position: absolute;
+    border: rgba(170,255,45,0.08);
+    bottom: 5px;
+    right: 10px;
+}
+#message .footer span{
+    font-size: 30px;
+    font-weight: bold;
+}
+#delete a{
+    color: red;
+    font-size: 15px;
+    position: absolute;
+    bottom: 10px;
+    border: red 1px solid;
+    border-radius: 8px;
+}
+#write a {
+    display: inline-block;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20px;
+    background: red;
+    bottom: 60px;
+    right: 50px;
+    font-size: 40px;
+
+}

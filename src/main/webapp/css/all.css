@@ -1,0 +1,18 @@
+*{
+    padding: 0;
+    padding: 0;
+}
+
+body {
+    background: rgba(255, 169, 70, 0.12) url("../img/about.jpg") no-repeat;
+    background-size: cover;
+}
+
+#ShowBynav {
+    background: rgba(40,51,62,0.6);
+    color: aquamarine;
+}
+#ShowBynav a {
+    text-decoration: none;
+    color: rgba(61,255,75,0.27);
+}

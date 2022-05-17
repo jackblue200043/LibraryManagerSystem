@@ -1,0 +1,24 @@
+#writeMessage {
+    width: 400px;
+    height: 390px;
+    border: rgba(147,248,255,0.91) 2px solid;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+#writeMessage textarea {
+    width: 350px;
+    height: 350px;
+    margin: 5px 25px;
+    border: #84ff57 solid 4px;
+    border-radius: 40px;
+    padding: 30px;
+    font-size: 25px;
+}
+#writeMessage input {
+    width: 50px;
+    height: 25px;
+    margin: 0 160px;
+}
+#writeMessage input[type="text"] {
+    display: none;
+}

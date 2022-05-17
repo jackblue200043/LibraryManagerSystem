@@ -1,0 +1,24 @@
+#main .left1, #main .left2, #main .right1,
+#main .right2 {
+	width: 180px;
+	height: 180px;
+	float: left;
+	margin: 5px;
+}
+#main .left1 a, #main .left2 a, #main .right1 a,
+#main .right2 a{
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	display: inline-block;
+	line-height: 180px;
+	width: 180px;
+	height: 180px;
+	text-decoration: none;
+	border: 2px solid aqua;
+	margin: 10px;
+	border-radius: 19px;
+}
+#main a:hover {
+	background: #7FFFD4;
+}

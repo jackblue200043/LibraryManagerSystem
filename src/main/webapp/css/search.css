@@ -1,0 +1,36 @@
+#search {
+    margin: 10px 10px;
+}
+#form {
+    width: 850px;
+    font-size: 0;
+    margin: 0 auto;
+    border: rgba(31,255,77,0.12) solid 3px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+#form select[name="field"],
+#form input[name="fieldValue"],
+#form input[type="submit"],
+#form input[type="checkbox"]{
+    font-weight: bold;
+    font-size: 20px;
+}
+#form  select[name="field"]{
+    border: none;
+    width: 110px;
+    height: 40px;
+}
+#form  #mohu{
+    font-size: 20px;
+}
+#form input[name="fieldValue"] {
+    width: 600px;
+    height: 40px;
+    border: none;
+}
+#form input[type="submit"]  {
+    width: 40px;
+    height: 40px;
+    border: none;
+}

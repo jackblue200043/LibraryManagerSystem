@@ -1,0 +1,35 @@
+.nav {
+    background: rgba(31,255,77,0.27);
+}
+.nav .box {
+    float: left;
+}
+.nav .box .list {
+    float: left;
+}
+.nav .userTool {
+    border: none;
+    width: 80px;
+    float: right;
+}
+.nav .box .list a{
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    width: 150px;
+    line-height: 80px;
+    font-family: 'DejaVu Sans', Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+.nav .box:first-child {
+}
+.nav .box .list a:hover {
+    background: red;
+}
+.nav:after, .nav.box:after {
+    content: " ";
+    display: block;
+    clear: both;
+}
